@@ -21,16 +21,19 @@ Modify a file on the branch and commit it
 	I modified this file.
 
 Merge the branch back into the master branch
+	Done
 
 Delete the branch you just merged into master.
+	Deleted
+
 Add a remote origin to the repository
+	Added
 
 Demonstrate Github Proficiency
-
 Thoroughly review GitHub - Using GitHub for FamilySearch for information on using GitHub at FamilySearch
-
 This page contains information needed to perform some tasks on GitHub
 Review Commit Comments
+	
 Register your GitHub user account with FamilySearch using the ElectricCommander procedure (if you haven't done so already)
 
 Create a repository in the fs-eng organization, assigning it to a team you're already on.
