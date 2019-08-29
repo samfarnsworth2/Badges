@@ -2,11 +2,14 @@ Platform Apprentice Badge page
 Tasks
 Demonstrate Git Proficiency
 
-Install and configure Git on your local development machine.  Done
+Install and configure Git on your local development machine
+	Done
 
 Initialize a new repository
+	Made repository "Badges"
 
 Add a file and commit it to the repository
+	Added file "platform_badge"
 
 Modify that file and commit it to the repository again
 
