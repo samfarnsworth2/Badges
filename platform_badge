@@ -1,0 +1,150 @@
+Platform Apprentice Badge page
+Tasks
+Demonstrate Git Proficiency
+
+Install and configure Git on your local development machine.  Done
+
+Initialize a new repository
+
+Add a file and commit it to the repository
+
+Modify that file and commit it to the repository again
+
+Create a branch
+
+Modify a file on the branch and commit it
+
+Merge the branch back into the master branch
+
+Delete the branch you just merged into master.
+Add a remote origin to the repository
+
+Demonstrate Github Proficiency
+
+Thoroughly review GitHub - Using GitHub for FamilySearch for information on using GitHub at FamilySearch
+
+This page contains information needed to perform some tasks on GitHub
+Review Commit Comments
+Register your GitHub user account with FamilySearch using the ElectricCommander procedure (if you haven't done so already)
+
+Create a repository in the fs-eng organization, assigning it to a team you're already on.
+
+If you're not already on at least one team, create one using the ElectricCommander procedure. (Joined as Engineer)
+Create a branch in that repository
+
+Change a file in the branch, commit the change using a good commit comment
+
+Issue a Pull Request
+
+Review and Complete the Pull Request
+
+Delete the repository you created
+Demonstrate Maven proficiency
+
+Thoroughly review Maven Installation Instructions for installing and configuring Maven at FamilySearch.
+Install and configure Maven on your local machine.
+
+Configure Maven to point to our internal Nexus server instead of Maven Central.
+Install the FamilySearch certificate in Java on your development machine.
+Create a Maven Project for a WAR file
+
+Add a compile-scoped dependency and use it in your project
+
+An easy dependency to use is the logging framework log4j. See this article for a tutorial on using it in Maven (only pay attention to steps 3 and 4, and ignore the "mvn eclipse" commands.
+Add a test-scoped dependency
+
+Build the project with Maven
+
+Configure a plugin for your project
+Add a profile to your project that changes the behavior of your build in some way when it's enabled.
+Talk about how profiles should be used, and how they can be misused.
+Demonstrate Sonar Proficiency
+
+Change Sonar issues results by fixing a Blocker, Critical, or Major error logged by Sonar
+
+Change Sonar unit test coverage results by adding a unit test
+
+Demonstrate Automated Testing proficiency
+
+Explain why unit testing is important to a Continuous Delivery project
+
+Explain why component testing is important to a Continuous Delivery project
+
+Explain why smoke/integration/acceptance testing is important to a Continuous Delivery project
+
+Demonstrate Monitoring proficiency
+
+Explain what Splunk is - a tool that helps aggregate data from system logs and provide analysis on relevant statistics
+Explain what a Source, Source Type, Host, Index are - 
+Write a Splunk query to that uses two search criteria
+Write a Splunk query that uses regular expressions.
+Write a Splunk query that shows cpu usage, netstat, and disk-space.  Can you find this information for your servers?
+Write a Splunk query that shows the results of a build that was started by you or members of your team.
+Display the metrics in a graph/chart
+Write an alert that uses data from Splunk
+Create a Splunk alert that sends email when it is fired and display the alert it generated.
+Create a Splunk alert that will automatically create a Jira.
+Discuss how to create an alert that will fire when a system experiences abnormal traffic patterns.
+Demonstrate knowledge of Continuous Delivery
+
+What is continuous delivery?
+Review this confluence page that describes continuous delivery and answer each of the following:
+What is Electric Commander?
+In the continuous delivery pipeline what is the purpose of a commit?
+Where is a release candidate created?
+What thing does integration testing in a production-like environment?
+Demonstrate how you would find the status of a build.
+Demonstrate how you would find the status of a deployment.
+What is the difference between release and deployment?
+What is the difference between push-button deployment and automatic deployment?  When would you use each?
+Where are previous versions of one of your team's products or services stored?
+Demonstrate knowledge of our Infrastructure
+
+Review the confluence page(s) that document(s) our infrastructure
+Explain some terms and where they are in the infrastructure diagrams:Explain how a request from a user's computer gets through the major pieces of our infrastructure to your application. Don't worry about routing rules or the switches (and their rules), just how traffic flows to your app.  Do you know what parts of the infrastructure are automated by the platform so that your app gets requests routed to it?
+SSL-in/SSL-out
+DLB
+VPC
+DNS & DNS Resolution
+CName
+ELB
+DTM
+Demonstrate Amazon Web Services proficiency
+
+What is Amazon Web Services?
+Describe what the acronyms SaaS-IaaS-PaaS mean.
+Demonstrate logging into the playground-fh2 AWS account with the SuperAdmin role via the FamilySearch AWS Portal.
+Create and demonstrate an EC2 instance in the playground-fh2 account.
+
+Create and demonstrate an S3 instance in the playground-fh2 account.
+
+Create and demonstrate an RDS instance in the playground-fh2 account.
+
+Create and demonstrate an Elastic Beanstalk environment in the playground-fh2 account.
+Select "Load balancing, autoscaling" as the environment type. Do NOT select "Single instance".
+Don't put your application in a VPC when it asks you
+Terminate the EC2 instance, S3 bucket, RDS instance, and Elastic Beanstalk environment you created
+Explain what reserved instances are and how they reduce AWS expenses.
+
+Demonstrate AWS Cloudwatch monitoring and create an alarm for one of the machines in the playground-fh2 VPC.  (ex: high CPU usage, high disk-space usage, etc)
+Demonstrate PaaS proficiency
+
+Explain what "A-B Deploy" and "In-Place Update" mean.  What are some of the differences between the two?
+Create a simple application using the PaaS Platform blueprint in the Dev-FH5 VPC.
+Tutorial on confluence - paas tutorial
+Using the blueprint created in the previous step, point out the location of:
+Your application's public/private configuration
+Instance Types you are using
+Scaling parameters
+TTL
+Instance Tagging
+Bad blueprint syntax - how to find the definition and also how to find examples
+Create a blueprint file and validate using the blueprint checker found here: Is there a way to check my blueprint prior to committing my code?
+Beanstalk Service (1.0 Blueprint Schema)
+How to diagnose deploy failures in AWS
+Go to a build failure in EC, you can find a workflow failure id
+AWS Console - search for workflow with that id, has lots of additional details
+Splunk - search for workflow by that blueprint name
+Software Authentication Service
+
+Discuss with your team what SAS is and how it solves a significant problem in our software architecture.
