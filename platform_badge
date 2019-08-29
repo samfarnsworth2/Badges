@@ -15,8 +15,10 @@ Modify that file and commit it to the repository again
 	I modified this file with this message and committed it.
 
 Create a branch
+	Made a branch called "first-branch"
 
 Modify a file on the branch and commit it
+	I modified this file.
 
 Merge the branch back into the master branch
 
